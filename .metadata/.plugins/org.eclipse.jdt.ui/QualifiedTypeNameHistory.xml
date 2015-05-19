@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.eclipse.jdt.core.dom.VariableDeclarationFragment"/>
+<fullyQualifiedTypeName name="org.eclipse.jdt.internal.core.builder.SourceFile"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.eclipse.core.internal.resources.File"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="org.eclipse.text.edits.TextEdit"/>
+<fullyQualifiedTypeName name="org.eclipse.jface.text.Document"/>
+</qualifiedTypeNameHistroy>

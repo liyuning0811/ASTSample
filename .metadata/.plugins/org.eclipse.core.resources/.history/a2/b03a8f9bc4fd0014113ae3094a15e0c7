@@ -1,0 +1,5 @@
+package util.visitor;
+
+public class SampleVisitor3 {
+
+}

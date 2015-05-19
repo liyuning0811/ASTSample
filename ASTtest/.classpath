@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/Liyuning/Desktop/ASTtest/plugin/org.eclipse.core.contenttype_3.4.200.v20130326-1255.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Liyuning/Desktop/ASTtest/plugin/org.eclipse.core.resources_3.8.101.v20130717-0806.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Liyuning/Desktop/ASTtest/plugin/org.eclipse.equinox.preferences_3.5.100.v20130422-1538.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Liyuning/Desktop/ASTtest/plugin/org.eclipse.osgi_3.9.1.v20140110-1610.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Liyuning/Desktop/ASTtest/plugin/org.eclipse.core.jobs-3.5.100.v20110404.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Liyuning/Desktop/ASTtest/plugin/org.eclipse.equinox.common-3.6.0.v20100503.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Liyuning/Desktop/ASTtest/plugin/org.eclipse.core.runtime-3.7.0.v20110110.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Liyuning/Desktop/ASTtest/plugin/org.eclipse.text_3.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Liyuning/Desktop/ASTtest/plugin/org.eclipse.jdt.core_3.8.1.v20120531-0637.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
