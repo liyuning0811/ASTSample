@@ -17,7 +17,8 @@ public class Sample3 {
 	
 	 private static ASTVisitor visitor = new SampleVisitor3();
 	    public static void main(String[] arg) throws Exception {
-	        SourceFile sourceFile = new SourceFile("C:/Users/Liyuning/Desktop/ASTtest/ASTtest/src/Subject.java");
+	        SourceFile sourceFile = new SourceFile("src" + File.separator
+	                + "samples" + File.separator + "AntFileGen.java");
 	        CompilationUnit unit;
 	        ASTParser astParser = ASTParser.newParser(AST.JLS4);
 
@@ -35,7 +36,7 @@ public class Sample3 {
 	        unit.recordModifications();
 
 	        unit.accept(visitor);
-	  
+	        // 変換結果を文字列で取得
 	        String code = getCode(sourceFile.getSourceCode(), unit);
 	        System.out.println(code);
 	    }

@@ -35,7 +35,7 @@ public class Sample3 {
 	        unit.recordModifications();
 
 	        unit.accept(visitor);
-	  
+	        // 変換結果を文字列で取得
 	        String code = getCode(sourceFile.getSourceCode(), unit);
 	        System.out.println(code);
 	    }
