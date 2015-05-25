@@ -19,28 +19,24 @@ public class SampleVisitor2 extends ASTVisitor {
 //		return super.visit(node);
 //	}
 	/**
-     * ¥Õ¥£©`¥ë¥ÉÐûÑÔ¤òdelete!
+     * ¥Õ¥£©`¥ë¥É¤òdelete
      */
     public boolean visit(FieldDeclaration node) {
         node.delete();
         return super.visit(node);
     }
-    /**
-     * javadoc¤â¤Ä¤¤¤Ç¤Ëdelete!
-     */
+    
     public boolean visit(Javadoc node) {
         node.delete();
         return super.visit(node);
     }
-    /**
-     * ¥À¥áÑº¤·¤Ëimport¤âdelete!
-     */
+   
     public boolean visit(ImportDeclaration node) {
         node.delete();
         return super.visit(node);
     }
     /**
-     * ¥á¥½¥Ã¥ÉÄÚ¤Î„IÀí¤òdelete!
+     * ¥á¥½¥Ã¥É¤òdelete
      */
     public boolean visit(MethodDeclaration node) {
 //        node.getBody().statements().clear();

@@ -17,8 +17,11 @@ public class Sample3 {
 	
 	 private static ASTVisitor visitor = new SampleVisitor3();
 	    public static void main(String[] arg) throws Exception {
-	        SourceFile sourceFile = new SourceFile("C:/Users/Liyuning/Desktop/ASTtest/ASTtest/src/Subject.java");
-	        CompilationUnit unit;
+	        
+	    	SourceFile sourceFile = new SourceFile("C:/Users/Liyuning/Desktop/ASTtest/ASTtest/src/Subject.java");
+	       
+	    	CompilationUnit unit;
+	        
 	        ASTParser astParser = ASTParser.newParser(AST.JLS4);
 
 	        astParser.setBindingsRecovery(true);
@@ -38,16 +41,12 @@ public class Sample3 {
 	  
 	        String code = getCode(sourceFile.getSourceCode(), unit);
 	        System.out.println(code);
+	        
+//	        PrintWriter out = new PrintWriter("change.java");
+//	        out.write(code);
+//	        out.close();
 	    }
-	    /**
-	     * ASTを文字列のコードに戻すメソッド
-	     *
-	     * @param code
-	     *            元のコード
-	     * @param unit
-	     *            ASTVisitorで操作を行ったヤツ
-	     * @return ソースコード
-	     */
+	   
 	    private static String getCode(String code, CompilationUnit unit) {
 	        org.eclipse.jface.text.IDocument eDoc = new Document(code);
 	        TextEdit edit = unit.rewrite(eDoc, null);

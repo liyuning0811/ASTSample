@@ -32,9 +32,7 @@ public class SampleVisitor1 extends ASTVisitor {
 		return super.visit(node);
 	}
 
-	/**
-	 * ¥Õ¥£©`¥ë¥ÉÐûÑÔ¤¬ÒŠ¤Ä¤«¤ë¤Èºô¤Ð¤ì¤ë¥á¥½¥Ã¥É
-	 */
+	
 	public boolean visit(FieldDeclaration node) {
 		Print.printTitle("¥Õ¥£©`¥ë¥ÉÐûÑÔ");
 		Print.printModifiers("Modifiers", node.getModifiers());

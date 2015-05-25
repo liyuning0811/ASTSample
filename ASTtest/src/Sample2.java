@@ -33,7 +33,8 @@ public class Sample2 {
         
         String code = getCode(sourceFile.getSourceCode(), unit);
         System.out.println(code);
-        PrintWriter out = new PrintWriter("file.java");
+        
+        PrintWriter out = new PrintWriter("delete.java");
         out.write(code);
         out.close();
 	}
